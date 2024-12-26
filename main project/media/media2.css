@@ -1,0 +1,314 @@
+/* mobile */
+@media (min-width: 0px) and (max-width: 480px) 
+{
+    .navbarcontainer 
+    {
+        height: auto; 
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 0;
+    }
+    .logo 
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .img img
+     {
+        width: auto;
+        height: 50px;
+    }
+    .logo span
+     {
+        font-size: 16px; 
+    }
+
+    .menu ul li
+    { 
+        padding-left: 70px;
+        margin-right: 11px;
+        margin-top: 40px;
+    }
+
+    .menu ul li a 
+    {
+        font-size: 16px;
+        display: flex;
+       justify-content: center;
+        
+    }
+
+    .heading
+     {
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        font-size: 25px; 
+    }
+
+    .image 
+    {
+        height: 300px; 
+        margin-top: 10%;
+    }
+
+    .photo
+     {
+        height: 200px; 
+        width: 80%; 
+        margin-left: 10%;
+    }
+
+    .art img 
+    {
+        width: 100%;
+        height: 500px;
+    
+    }
+
+    .paragraph
+     {
+        width: 88%; 
+        margin-top: 40%;
+         margin-left: 7%; 
+        font-size: 16px; 
+        line-height: 20px;
+    }
+
+    .paragraph p 
+    {
+        font-size: 14px;
+        word-spacing: 1px;
+        align-items: center;
+    }
+    h3 
+    {
+        font-size: 30px;
+        
+    }
+    h4 
+    {
+        font-size: 18px; 
+    }
+    ul li 
+    {
+        font-size: 18px;
+        align-items: center;
+       
+    }
+
+    .footer 
+    {
+        height: auto; 
+    }
+
+    .footer p 
+    {
+        font-size: 12px; 
+        margin-top: 10%; 
+        text-align: center;
+    }
+}
+
+/* teblate */
+@media (min-width: 481px) and (max-width: 768px)
+ {
+    
+    .navbarcontainer
+     {
+        height: auto;
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: center;
+        padding: 10px;
+    }
+    .logo 
+    {
+        width: 80%; 
+        height: auto;
+        display: flex;
+        padding-right: 5%;
+    }
+    .img img 
+    {
+        width: auto;
+        height: 50px;
+    }
+    .logo span 
+    {
+        font-size: 18px;
+
+    }
+    .menu ul
+     {
+        display: flex;
+        justify-content: end; 
+    }
+    .menu ul li 
+    {
+        list-style: none;
+        margin-right: 15px; 
+        padding-left: 8px; 
+    }
+    .menu ul li a 
+    {
+        color: white;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    .heading 
+    {
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    .image
+     {
+        height: 500px; 
+        margin-top: 5%;
+    }
+    .photo 
+    {
+        height: 500px; 
+        width: 55%; 
+        margin-left: 45%; 
+    }
+    .art img 
+    {
+        height: 490px;
+        width: 100%;
+        margin-top: 9%;
+    }
+    .paragraph
+     {
+        height: 400px; 
+        width: 40%; 
+        margin-top: -98%;
+        margin-left: 5%;
+        font-size: 8px; 
+        line-height: 22px;
+    }
+    h3 
+    {
+        font-size: 38px; 
+    }
+
+    h4 
+    {
+        font-size: 18px; /
+    }
+
+    ul li 
+    {
+        font-size: 18px; 
+    }
+
+    .footer 
+    {
+        height: auto; 
+    }
+    .footer p 
+    {
+        font-size: 14px; 
+        margin-top: 700px;
+    }
+}
+
+/* leptop */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body
+     {
+        height: auto; 
+        width: 100%;
+        background-color: black;
+    }
+
+    .navbarcontainer 
+    {
+        height: 90px;
+        width: 90%;
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .logo 
+    {
+        height: 40px;
+        margin-bottom: 10px;
+        margin-top: 1.5%;
+    }
+    .img img 
+    {
+        height: 40px;
+    }
+    .menu ul
+    {
+       display: flex;
+       justify-content: end;
+   }
+   .menu ul li
+    {
+       list-style: none;     
+       margin-right: 40px;
+       padding-left: 30px;
+       margin-top: 5%;
+    }
+    .menu ul li a
+    {
+       font-size: 17px;
+       justify-content: space-between;
+       text-decoration: none;
+       
+    }
+    .heading
+     {
+        margin-top: 10%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        line-height: 40px;
+    }
+    h1 
+    {
+        font-size: 32px;
+    }
+
+    .image 
+    {
+        height: auto; 
+    }
+    .photo 
+    {
+        height: 400px;
+        width: 80%;
+        margin-left: 16%;
+        margin-top: 2%;
+        
+    }
+    .art img
+     {
+        height: 600px;
+        width: 80%;
+        
+    }
+    .paragraph 
+    {
+        width: 70%;
+        margin-top: 20%;
+        margin-left: 15%;
+        font-size: 16px;
+    }
+    .footer 
+    {
+        height: auto;
+        text-align: center;
+    }
+    .footer p 
+    {
+        font-size: 14px;
+        margin-top: 40%;
+    }
+}

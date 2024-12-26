@@ -1,0 +1,346 @@
+/* mobile */
+ @media (min-width: 0px) and (max-width: 480px)
+{
+    .navbarcontainer
+    {
+        display: flex;
+         flex-direction: column; 
+    }
+    .logo 
+    {
+        display: block;
+        justify-content: center;
+    }
+    .logo img
+    {
+        height: 40px;
+        width: 100%;
+    }
+    .menu 
+    {
+        margin-top: 30px;
+        margin-left: 80px;
+    }  
+    img img
+    {
+        height: 40px;
+    }
+
+    .menu ul li a
+    {
+         display: flex;
+         justify-content: center;
+         font-size: 15px;
+         
+    } 
+    .menu ul li 
+    {
+        padding-left: 1px;
+        margin-right: 11px;
+    }
+    .heading
+    {
+        margin-top: 20%;
+    }
+    .heading h1 
+    {
+        font-size: 30px;
+        height: 60px;
+    } 
+    .images1,.images2,.images3,.images4,.images5
+    {
+        width: 80%;
+        position: absolute;
+    }
+    .photos1,.photos2,.photos3,.photos4,.photos5
+    {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+    .art1
+    {
+        width: 75%;
+        height: 280px;
+    }
+    .art2
+    {
+        margin-top: 2%;
+        width: 78%;
+        margin-left: 4%;
+    }
+    .art3
+    {
+        margin-top: 23%;
+    }
+    .art4
+    {
+         margin-top: 840px;
+        
+    } 
+    .art5
+    {
+        margin-top: -26%;
+        width: 70%;
+        
+    }
+   .art6
+    {
+        margin-top: 15%;
+        width: 65%;
+       
+    }
+    .art7
+    {
+        margin-top: 1820px;
+        margin-left: 10%;
+        width: 75%;
+        
+    }
+    .art8
+    {
+        margin-top: -5%;
+        margin-left: 10%;
+        height: 350px;
+        width: 80%;
+    }
+    .art9
+    {
+        margin-top: 30%;
+        margin-left: 5%;
+    } 
+    .art10
+    {
+        margin-top: 2790px;
+        width: 70%;
+        margin-left: 5%;
+    }
+    .art11
+    {
+        margin-top: 30px;
+        width: 75%;
+        margin-left: -10%;
+    }
+    .art12
+    {
+        margin-top: 130px;
+        margin-left: 5%;
+    }
+    .art13
+    {
+        margin-top: 3550px;
+        width: 75%;
+        margin-left: 10%;
+    }
+    .art14
+    {
+        margin-top: -10px;
+        width: 75%;
+        margin-left: 10%;
+    }
+    .art15
+    {
+        margin-top: 240px;
+        width: 75%;
+        margin-left: 10%;
+    }
+    .footer 
+    {
+         position: absolute;
+         top: 4590px;
+          
+    }
+  
+
+}
+/* tablet */
+@media (min-width: 481px) and (max-width: 768px)
+{
+    .navbarcontainer
+    {
+        display: flex;
+         flex-direction: column; 
+    }
+    .logo 
+    {
+        display: block;
+        justify-content: center;
+    }
+    .menu 
+    {
+        margin-top: 30px;
+        margin-left: 80px;
+    }  
+    img img
+    {
+        height: 20px;
+    }
+
+    .menu ul li a
+    {
+         display: flex;
+         justify-content: center;
+         font-size: 15px;
+         
+    } 
+    .menu ul li 
+    {
+        padding-left: 1px;
+        margin-right: 11px;
+    }
+    .heading
+    {
+        margin-top: 20%;
+    }
+    .heading h1 
+    {
+        font-size: 30px;
+        height: 60px;
+    }
+    .images1,.images2,.images3
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+     .photos1,.photos2,.photos3
+    {
+        width: 45%;
+        height: 300px;
+        align-items: center;
+    }
+    .art1 
+    {
+        height: 300px;
+        width: 100%;
+    }
+     .art1 img
+    {
+        height: 300px;
+        width: 100%;
+    } 
+    .art2 
+    {
+        height: 300px;
+        width: 100%;
+    }
+     .art2 img
+    {
+        height: 300px;
+        width: 100%;
+    } 
+     .art3
+    {
+        height: 300px;
+        width: 100%;
+    }
+    .art3 img
+    {
+        height: 300px;
+        width: 100%;
+    }  
+}
+
+
+/* leptop */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navbarcontainer 
+    {
+        height: 90px;
+        width: 90%;
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .logo 
+    {
+        height: 40px;
+        margin-bottom: 10px;
+        margin-top: -5%;
+    }
+    .img img 
+    {
+        height: 40px;
+    }
+    .menu ul
+    {
+       display: flex;
+       justify-content: end;
+   }
+   .menu ul li
+    {
+       list-style: none;     
+       margin-right: 40px;
+       padding-left: 30px;
+       margin-top: -6%; 
+    }
+    .menu ul li a
+    {
+       font-size: 17px;
+       justify-content: space-between;
+       text-decoration: none;
+       
+    }
+    .heading
+     {
+        margin-top: 10%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    h1 
+    {
+        font-size: 30px;
+    }
+
+    .images1, .images2, .images3, .images4, .images5
+     {
+        flex-direction: column; 
+        align-items: center;
+        height: auto;
+        margin-top: 3%;
+    }
+
+    .photos1, .photos2, .photos3 .photos5 
+    {
+        flex-direction: row; 
+        width: 100%;
+        align-items: center;
+    }
+    .gradient1, .gradient2, .gradient3, .gradient4, .gradient5, 
+    .gradient6, .gradient7, .gradient8, .gradient9, .gradient10, 
+    .gradient11, .gradient12, .gradient13, .gradient14, .gradient15
+     {
+        height: 150px;
+    }
+
+    .gradient1::before, .gradient2::before, .gradient3::before, .gradient4::before, 
+    .gradient5::before, .gradient6::before, .gradient7::before, .gradient8::before, 
+    .gradient9::before, .gradient10::before, .gradient11::before, .gradient12::before, 
+    .gradient13::before, .gradient14::before, .gradient15::before 
+    {
+        height: 150px;
+    }
+    .art1 img, .art2 img, .art3 img, .art4 img, .art5 img, .art6 img,
+    .art7 img, .art8 img, .art9 img, .art10 img, .art11 img, .art12 img,
+    .art13 img, .art14 img, .art15 img 
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer 
+    {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 10%;
+    }
+
+    .footer p 
+    {
+        margin-top: 50%;
+    }
+}

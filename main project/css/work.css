@@ -1,0 +1,621 @@
+body
+{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+}
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar
+{
+    width: 100%; 
+    margin: auto;
+}
+ .navbarcontainer
+{
+    height: 150px;
+    width: 95%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;  
+}
+.logo
+{
+    width: 100%;
+    height: 50px;
+    left: 3%;
+    position: relative;
+   display: flex;
+}
+.img img
+{
+    width: 100%;
+    height: 50px;
+
+} 
+.logo span
+{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+}
+.menu ul
+{
+    display: flex;
+
+}
+.menu ul li
+{
+    list-style: none;
+    margin-right: 50px;
+    padding-left: 30px;
+}
+.menu ul li a
+{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.heading  
+{
+    height: 100px;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    line-height: 90px;
+    margin-top: 9%;
+    color: aliceblue;
+}
+h1
+{
+    font-size: 45px;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.images1
+{
+    height: 335px;
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between; 
+
+}
+.photos1
+{
+    height: 335px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+     justify-content: space-between;
+} 
+
+.art1 img   
+{
+    height: 250px;
+    width: 100%;
+    display: flex; 
+}
+ .gradient1
+{
+    height: 250px;
+    width: 100%;
+    position: relative; 
+}
+.gradient1::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    bottom: 0;
+   transition: height 0.7s  ease-out;  
+    
+  }
+.gradient1:hover::before
+ {
+   height: 300px;
+    background: linear-gradient(to bottom, transparent 0%, rgb(63, 31, 133) 100%);
+  }
+.art2 img
+{
+    height: 330px;   
+    width: 95%;
+    display: flex;
+}
+.gradient2
+{
+    height: 250px;
+    width: 100%;
+    position: relative; 
+}
+.gradient2::before
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 95%;
+    bottom: -32%;
+   transition: height 0.7s  ease-out; 
+    
+}
+ .gradient2:hover::before
+  {
+   height: 350px;
+    background: linear-gradient(to bottom, transparent 0%, rgb(63, 31,133) 100%);
+}
+.art3 img
+{
+    height: 230px;
+    display: flex;
+}  
+.gradient3
+{
+    height: 250px;
+    width: 100%;
+    position: relative; 
+}
+.gradient3::before
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 250px;
+    width: 120%;
+    bottom: -13%;
+    left: -10%;
+   transition: height 0.7s   ease-out;  
+    
+}
+ .gradient3:hover::before 
+ {
+   height: 350px;
+    background: linear-gradient(to bottom, transparent 0%, rgb(63, 31, 133) 100%);
+}
+ .images2
+{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-between; 
+   
+}
+.photos2
+{
+    height: 450px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.art4 img   
+{
+    height: 250px;
+    /* width: 90%; */
+    display: flex;  
+    /* margin-top: 20%; */
+}
+.gradient4
+{
+    height: 210px;
+    width: 100%;
+    position: relative; 
+}
+.gradient4::before
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 2%;
+    height: 0px;
+    left: 1%;
+    width: 100%;
+    bottom: -15%;
+   transition: height 0.7s  ease-out;  
+    
+}
+ .gradient4:hover::before {
+   height: 280px;
+    background: linear-gradient(to bottom, transparent 0%, rgb(63, 31, 133) 100%);
+}
+ .art5 img
+{
+    height: 350px;
+    width: 100%;
+    margin-top: 50%;
+    display: flex;
+}
+.gradient5
+{
+    height: 250px;
+    width: 100%;
+    position: relative; 
+}
+.gradient5::before
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    bottom: -40%;
+   transition: height 0.7s  ease-out;  
+    
+}
+ .gradient5:hover::before {
+   height: 350px;
+    background: linear-gradient(to bottom, transparent 0%, rgb(63, 31,133) 100%);
+}
+.art6 img
+{
+    height: 260px;
+    width: 100%;
+    margin-top: 20%;
+    display: flex;
+    border-radius: 50%;
+} 
+.gradient6
+{
+    height: 190px;
+    width: 95%;
+    position: relative; 
+}
+.gradient6::before
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 120%;
+    bottom: -30%;
+    left: -10%;
+   transition: height 0.7s ease-out;  
+    
+}
+ .gradient6:hover::before {
+   height: 280px;
+    background: linear-gradient(to bottom, transparent 0%, rgb(63, 31,133) 100%);
+} 
+.images3
+{
+    height: 490px;
+    width: 100%;
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-between; 
+}
+.photos3
+{
+    height: 440px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.art7 img   
+{
+    height: 270px;
+    width: 95%;
+    margin-top: -30%;
+    display: flex;
+}
+.gradient7
+{
+    height: 210px;
+    width: 95%;
+    position: relative; 
+}
+.gradient7::before
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 95%;
+    bottom: -30%;
+   transition: height 0.7s  ease-out; 
+    
+}
+ .gradient7:hover::before {
+   height: 300px;
+    background: linear-gradient(to bottom, transparent 0%, rgb(63, 31,133) 100%);
+} 
+.art8 img
+{
+    height: 340px;
+    width: 100%;
+    margin-top: 30%;
+    display: flex;
+}
+.gradient8
+{
+    height: 210px;
+    width: 95%;
+    position: relative; 
+}
+.gradient8::before
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 92%;
+    bottom: -30%;
+    right: 2%;
+   transition: height 0.7s    ease-out;  
+    
+}
+ .gradient8:hover::before
+  {
+   height: 300px;
+    background: linear-gradient(to bottom, transparent 0%, rgb(63, 31,133) 100%);
+} 
+.art9 img
+{
+    height: 270px;
+    width: 100%;
+    margin-top: -15%;
+    display: flex;
+}    
+.gradient9
+{
+    height: 210px;
+    width: 95%;
+    position: relative; 
+}
+.gradient9::before
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    bottom: -30%;
+   transition: height 0.7s    ease-out;  
+    
+}
+ .gradient9:hover::before
+  {
+   height: 283px;
+    background: linear-gradient(to bottom, transparent 0%, rgb(63, 31,133) 100%);
+} 
+.images4
+{
+    height: 460px;
+    width: 100%;
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-between; 
+}
+.photos4
+{
+    height: 430px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.art10 img   
+{
+    height: 320px;
+    width: 96%;
+    margin-top: -60%;
+    display: flex;
+    
+}
+.gradient10
+{
+    height: 250px;
+    width: 100%;
+    position: relative; 
+}
+.gradient10::before
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 96%;
+    bottom: -30%;
+   transition: height 0.7s    ease-out;  
+    
+}
+ .gradient10:hover::before
+  {
+   height: 300px;
+    background: linear-gradient(to bottom, transparent 0%, rgb(63, 31,133) 100%);
+} 
+.art11 img
+{
+    height: 280px;
+    width: 90%;
+    margin-left: 13%;
+    margin-top: 15%;
+    display: flex;
+
+}
+.gradient11
+{
+    height: 210px;
+    width: 100%;
+    position: relative; 
+}
+.gradient11::before
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 91%;
+    bottom: -33%;
+    left: 12%;
+   transition: height 0.7s    ease-out;  
+    
+}
+ .gradient11:hover::before
+  {
+   height: 300px;
+    background: linear-gradient(to bottom, transparent 0%, rgb(63, 31,133) 100%);
+} 
+.art12 img
+{
+    height: 250px;
+    width: 97%;
+    margin-left: 2%;
+    margin-top: -30%;
+    display: flex;
+}
+.gradient12
+{
+    height: 180px;
+    width: 95%;
+    position: relative; 
+}
+.gradient12::before
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    bottom: -30%;
+    left: 3%;
+   transition: height 0.7s  ease-out;  
+    
+}
+ .gradient12:hover::before
+  {
+   height: 240px;
+    background: linear-gradient(to bottom, transparent 0%, rgb(63, 31,133) 100%);
+} 
+ .images5
+{
+    height: 460px;
+    width: 100%;
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-between; 
+}
+.photos5
+{
+    height: 430px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.art13 img   
+{
+    height: 250px;
+    width: 90%;
+    margin-top: -38%;
+    display: flex;  
+}
+.gradient13
+{
+    height: 210px;
+    width: 95%;
+    position: relative; 
+}
+.gradient13::before
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 90%;
+    bottom: -20%;
+    
+   transition: height 0.7s    ease-out;  
+    
+}
+ .gradient13:hover::before
+  {
+   height: 200px;
+    background: linear-gradient(to bottom, transparent 0%, rgb(63, 31,133) 100%);
+} 
+.art14 img
+{
+    height: 350px;
+    width: 100%;
+    margin-top: 15%;
+    display: flex;
+}
+.gradient14
+{
+    height: 210px;
+    width: 95%;
+    position: relative; 
+}
+.gradient14::before
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 95%;
+    bottom: -45%;
+    right: 2%;
+   transition: height 0.7s    ease-out;  
+    
+}
+ .gradient14:hover::before
+  {
+   height: 310px;
+    background: linear-gradient(to bottom, transparent 0%, rgb(63, 31,133) 100%);
+} 
+.art15 img
+{
+    height: 270px;
+    width: 95%;
+    margin-left: 2%;
+    margin-top: -45%;
+    display: flex;
+}
+.gradient15
+{
+    height: 210px;
+    width: 95%;
+    position: relative; 
+}
+.gradient15::before
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 95%;
+    bottom: -30%;
+    left: 2%;
+   transition: height 0.7s    ease-out;  
+    
+}
+ .gradient15:hover::before
+  {
+   height: 250px;
+    background: linear-gradient(to bottom, transparent 0%, rgb(63, 31,133) 100%);
+}  
+footer
+{
+    height: 60px;
+    width: 90%;
+    margin: auto;
+    position: absolute;
+}
+.footer p
+{
+    color: white;
+    font-size: 15px;
+    margin-top: 12%;
+    font-family: Arial, Helvetica, sans-serif;
+} 
